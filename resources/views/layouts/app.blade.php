@@ -19,6 +19,7 @@
     @vite(['resources/css/liner_icon.css'])
     @vite(['resources/css/search.css'])
     <!-- style CSS -->
+    @vite(['resources/sass/app.scss'])
     @vite(['resources/css/style.css'])
 </head>
 

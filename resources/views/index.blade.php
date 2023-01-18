@@ -42,17 +42,17 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
-                                <div class="single_post post_1">
-                                    <div class="single_post_img">
-                                        <img src="img/post/post_19.png" alt="">
-                                    </div>
-                                    <div class="single_post_text text-center">
-                                        <a href="category.html"><h5> Fashion / Life style</h5></a>
-                                        <a href="single-blog.html"><h2>Your life is a product your
-                                                right decisions</h2></a>
-                                        <p>Posted on April 15, 2019</p>
-                                    </div>
+                            <div class="single_post post_1">
+                                <div class="single_post_img">
+                                    <img src="img/post/post_19.png" alt="">
                                 </div>
+                                <div class="single_post_text text-center">
+                                    <a href="category.html"><h5> Fashion / Life style</h5></a>
+                                    <a href="single-blog.html"><h2>Your life is a product your
+                                            right decisions</h2></a>
+                                    <p>Posted on April 15, 2019</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="single_post post_1">
@@ -68,17 +68,17 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
-                                <div class="single_post post_1">
-                                    <div class="single_post_img">
-                                        <img src="img/post/post_21.png" alt="">
-                                    </div>
-                                    <div class="single_post_text text-center">
-                                        <a href="category.html"><h5> Fashion / Life style</h5></a>
-                                        <a href="single-blog.html"><h2>Your life is a product your
-                                                right decisions</h2></a>
-                                        <p>Posted on April 15, 2019</p>
-                                    </div>
+                            <div class="single_post post_1">
+                                <div class="single_post_img">
+                                    <img src="img/post/post_21.png" alt="">
                                 </div>
+                                <div class="single_post_text text-center">
+                                    <a href="category.html"><h5> Fashion / Life style</h5></a>
+                                    <a href="single-blog.html"><h2>Your life is a product your
+                                            right decisions</h2></a>
+                                    <p>Posted on April 15, 2019</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="single_post post_1">
@@ -94,17 +94,17 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
-                                <div class="single_post post_1">
-                                    <div class="single_post_img">
-                                        <img src="img/post/post_23.png" alt="">
-                                    </div>
-                                    <div class="single_post_text text-center">
-                                        <a href="category.html"><h5> Fashion / Life style</h5></a>
-                                        <a href="single-blog.html"><h2>Your life is a product your
-                                                right decisions</h2></a>
-                                        <p>Posted on April 15, 2019</p>
-                                    </div>
+                            <div class="single_post post_1">
+                                <div class="single_post_img">
+                                    <img src="img/post/post_23.png" alt="">
                                 </div>
+                                <div class="single_post_text text-center">
+                                    <a href="category.html"><h5> Fashion / Life style</h5></a>
+                                    <a href="single-blog.html"><h2>Your life is a product your
+                                            right decisions</h2></a>
+                                    <p>Posted on April 15, 2019</p>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <div class="single_post post_1">
@@ -120,17 +120,17 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
-                                <div class="single_post post_1">
-                                    <div class="single_post_img">
-                                        <img src="img/post/post_25.png" alt="">
-                                    </div>
-                                    <div class="single_post_text text-center">
-                                        <a href="category.html"><h5> Fashion / Life style</h5></a>
-                                        <a href="single-blog.html"><h2>Your life is a product your
-                                                right decisions</h2></a>
-                                        <p>Posted on April 15, 2019</p>
-                                    </div>
+                            <div class="single_post post_1">
+                                <div class="single_post_img">
+                                    <img src="img/post/post_25.png" alt="">
                                 </div>
+                                <div class="single_post_text text-center">
+                                    <a href="category.html"><h5> Fashion / Life style</h5></a>
+                                    <a href="single-blog.html"><h2>Your life is a product your
+                                            right decisions</h2></a>
+                                    <p>Posted on April 15, 2019</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -148,4 +148,3 @@
     @include('includes.social')
 
 @endsection
-
