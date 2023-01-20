@@ -20,6 +20,8 @@
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 
+@include('admin.includes.sidebar')
+
 @yield('content')
 
 <!-- jQuery -->
