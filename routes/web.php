@@ -2,13 +2,7 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\Category\CategoryController;
-use App\Http\Controllers\Admin\Category\CreateController;
-use App\Http\Controllers\Admin\Category\DeleteController;
-use App\Http\Controllers\Admin\Category\EditController;
-use App\Http\Controllers\Admin\Category\IndexController;
-use App\Http\Controllers\Admin\Category\showController;
-use App\Http\Controllers\Admin\Category\StoreController;
-use App\Http\Controllers\Admin\Category\UpdateController;
+use App\Http\Controllers\Admin\Post\PostController;
 use App\Http\Controllers\Home\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -28,6 +22,18 @@ Route::prefix('admin')->group(function () {
             Route::get('/{id}/edit', 'edit')->name('admin_category_edit');
             Route::patch('/{id}', 'update')->name('admin_category_update');
             Route::delete('/{id}', 'delete')->name('admin_category_delete');
+        });
+    });
+
+    Route::prefix('/posts')->group(function () {
+        Route::controller(PostController::class)->group(function () {
+            Route::get('/', 'index')->name('admin_post_index');
+            Route::get('/create', 'create')->name('admin_post_create');
+            Route::post('/store', 'store')->name('admin_post_store');
+            Route::get('/{id}', 'show')->name('admin_post_show');
+            Route::get('/{id}/edit', 'edit')->name('admin_post_edit');
+            Route::patch('/{id}', 'update')->name('admin_post_update');
+            Route::delete('/{id}', 'delete')->name('admin_post_delete');
         });
     });
 });
